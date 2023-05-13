@@ -194,7 +194,6 @@ header .studio {
 }
 .page-header .logo {
   display: flex;
-  background-color: yellow;
   margin-top: 25.5px;
   margin-bottom: 25.5px;
   margin-right: 76px;
@@ -208,7 +207,6 @@ header .studio {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--accent);
-  outline: 2px solid red;
 }
 .sitenav {
   display: flex;
@@ -218,7 +216,6 @@ header .studio {
   display: flex;
 }
 .nav-item {
-  background-color: aqua;
   margin-top: 24px;
   margin-bottom: 24px;
 
@@ -249,7 +246,6 @@ header .studio {
   margin-right: 40px;
 }
 .address .link {
-  background-color: antiquewhite;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -294,7 +290,6 @@ header .studio {
 
   max-width: 496px;
   height: 120px;
-  outline: 2px solid white;
 
   margin: 0px;
   margin-bottom: 48px;
@@ -439,7 +434,7 @@ button:focus {
   letter-spacing: 0.02em;
 }
 .filter {
-  height: 1692px;
+  /*height: 1692px;*/
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -463,8 +458,7 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-  padding-bottom: 120px;
+  row-gap: 48px;
 }
 .container .pic-item {
   margin-right: 24px;
@@ -473,11 +467,19 @@ button:focus {
 .container .pic-item:nth-child(3n) {
   margin-right: 0px;
 }
+.pic-list .pic-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.pic-list .pic {
+  margin-bottom: 8px;
+}
 
 .page-footer {
   color: #f4f4fd;
   background-color: var(--secondary-text-color);
-  height: 312px;
+  height: 312xp;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -503,5 +505,4 @@ footer .studio {
   color: #f4f4fd;
   width: 264px;
   height: 72px;
-  outline: 2px solid pink;
 }

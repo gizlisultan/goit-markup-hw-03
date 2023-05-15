@@ -195,7 +195,7 @@ header .studio {
   display: flex;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
-  padding-right: 76px;
+  margin-right: 76px;
 
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -334,7 +334,7 @@ h3 {
 /*Features*/
 .features-section {
   padding-top: 120px;
-  /*padding-bottom: 120px;*/
+  padding-bottom: 120px;
 }
 .feature-list {
   display: flex;
@@ -366,7 +366,7 @@ h3 {
 /*Our Team*/
 .our-team {
   background-color: #f4f4fd;
-  padding-top: 120px;
+  /* padding-top: 120px;*/
   padding-bottom: 120px;
 }
 .team {
